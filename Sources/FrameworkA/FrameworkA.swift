@@ -9,6 +9,6 @@ import Foundation
 
 public class FrameworkA {
     public static func use() {
-        print("Using Framework A")
+        print("Using Framework A version 0.3")
     }
 }
