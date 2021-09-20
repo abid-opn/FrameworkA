@@ -6,9 +6,11 @@
 //
 
 import Foundation
+import FrameworkB
 
 public class FrameworkA {
     public static func use() {
-        print("Using Framework A version 0.4")
+        print("Using Framework A version 0.5")
+        FrameworkB.use()
     }
 }
