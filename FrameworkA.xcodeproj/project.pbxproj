@@ -27,7 +27,6 @@
 /* Begin PBXFileReference section */
 		"FrameworkA::FrameworkA::Product" /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_19 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* FrameworkA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,7 +60,6 @@
 		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
-				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_10 /* Tests */,
 				OBJ_16 /* Products */,
