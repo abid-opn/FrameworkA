@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		81555D6726FC58800071930F /* FrameworkB in Frameworks */ = {isa = PBXBuildFile; productRef = 81555D6626FC58800071930F /* FrameworkB */; };
+		818808F526FC68620047BD21 /* FrameworkB in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 81555D6626FC58800071930F /* FrameworkB */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		OBJ_25 /* FrameworkA.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* FrameworkA.swift */; };
 /* End PBXBuildFile section */
 
@@ -18,6 +19,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				818808F526FC68620047BD21 /* FrameworkB in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
