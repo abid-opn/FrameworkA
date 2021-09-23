@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FrameworkB",
+        "repositoryURL": "git@github.com:abid-opn/FrameworkB.git",
+        "state": {
+          "branch": null,
+          "revision": "c219e9051878169338ce8b8be70b65fae06dfb23",
+          "version": "0.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
