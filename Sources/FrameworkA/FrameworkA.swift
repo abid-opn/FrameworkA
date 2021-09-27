@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import FrameworkB
+@_implementationOnly import FrameworkB
 
 public class FrameworkA {
     public static func use() {
