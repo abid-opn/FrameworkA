@@ -5,9 +5,9 @@
         "package": "FrameworkB",
         "repositoryURL": "git@github.com:abid-opn/FrameworkB.git",
         "state": {
-          "branch": null,
-          "revision": "c219e9051878169338ce8b8be70b65fae06dfb23",
-          "version": "0.2.0"
+          "branch": "master",
+          "revision": "36e92dd8ab475440b48ba510e1d7a5ca91d36907",
+          "version": null
         }
       }
     ]
