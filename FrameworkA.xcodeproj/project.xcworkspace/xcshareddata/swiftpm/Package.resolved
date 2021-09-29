@@ -2,11 +2,11 @@
   "object": {
     "pins": [
       {
-        "package": "FrameworkB",
-        "repositoryURL": "git@github.com:abid-opn/FrameworkB.git",
+        "package": "FrameworkBWrapper",
+        "repositoryURL": "git@github.com:abid-opn/FrameworkBWrapper.git",
         "state": {
           "branch": "master",
-          "revision": "36e92dd8ab475440b48ba510e1d7a5ca91d36907",
+          "revision": "95fc82a7771daba804bb62db1c3efbacabce3ed5",
           "version": null
         }
       }

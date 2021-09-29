@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81555D6726FC58800071930F /* FrameworkB in Frameworks */ = {isa = PBXBuildFile; productRef = 81555D6626FC58800071930F /* FrameworkB */; };
+		81BF07772704837B00062151 /* FrameworkBWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 81BF07762704837B00062151 /* FrameworkBWrapper */; };
 		OBJ_25 /* FrameworkA.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* FrameworkA.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				81555D6726FC58800071930F /* FrameworkB in Frameworks */,
+				81BF07772704837B00062151 /* FrameworkBWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 			);
 			name = FrameworkA;
 			packageProductDependencies = (
-				81555D6626FC58800071930F /* FrameworkB */,
+				81BF07762704837B00062151 /* FrameworkBWrapper */,
 			);
 			productName = FrameworkA;
 			productReference = "FrameworkA::FrameworkA::Product" /* FrameworkA.framework */;
@@ -127,7 +127,7 @@
 			);
 			mainGroup = OBJ_5;
 			packageReferences = (
-				81555D6526FC58800071930F /* XCRemoteSwiftPackageReference "FrameworkB" */,
+				81BF07752704837B00062151 /* XCRemoteSwiftPackageReference "FrameworkBWrapper" */,
 			);
 			productRefGroup = OBJ_16 /* Products */;
 			projectDirPath = "";
@@ -292,9 +292,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		81555D6526FC58800071930F /* XCRemoteSwiftPackageReference "FrameworkB" */ = {
+		81BF07752704837B00062151 /* XCRemoteSwiftPackageReference "FrameworkBWrapper" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:abid-opn/FrameworkB.git";
+			repositoryURL = "git@github.com:abid-opn/FrameworkBWrapper.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -303,10 +303,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		81555D6626FC58800071930F /* FrameworkB */ = {
+		81BF07762704837B00062151 /* FrameworkBWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 81555D6526FC58800071930F /* XCRemoteSwiftPackageReference "FrameworkB" */;
-			productName = FrameworkB;
+			package = 81BF07752704837B00062151 /* XCRemoteSwiftPackageReference "FrameworkBWrapper" */;
+			productName = FrameworkBWrapper;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
