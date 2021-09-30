@@ -156,7 +156,10 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = FrameworkA.xcodeproj/FrameworkA_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -187,7 +190,10 @@
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = FrameworkA.xcodeproj/FrameworkA_Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
