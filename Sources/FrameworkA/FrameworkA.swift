@@ -15,7 +15,7 @@ public class FrameworkA {
         FrameworkB.use()
     }
 
-    public func getImage() -> UIImage? {
+    public static func getImage() -> UIImage? {
         return UIImage(contentsOfFile: Bundle(for: Self.self).path(forResource: "website", ofType: ".jpeg")!)
     }
 }
