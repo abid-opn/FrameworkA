@@ -7,10 +7,15 @@
 
 import Foundation
 import FrameworkB
+import UIKit
 
 public class FrameworkA {
     public static func use() {
         print("Using Framework A version 0.10")
         FrameworkB.use()
+    }
+
+    public func getImage() -> UIImage? {
+        return UIImage(contentsOfFile: Bundle(for: Self.self).path(forResource: "website", ofType: ".jpeg")!)
     }
 }

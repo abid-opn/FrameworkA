@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81BF07772704837B00062151 /* FrameworkBWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 81BF07762704837B00062151 /* FrameworkBWrapper */; };
+		81D7CD952705C63F006C645F /* website.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 81D7CD932705C630006C645F /* website.jpeg */; };
+		81D7CDB02705D42F006C645F /* FrameworkBWrapper in Frameworks */ = {isa = PBXBuildFile; productRef = 81D7CDAF2705D42F006C645F /* FrameworkBWrapper */; };
 		OBJ_25 /* FrameworkA.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* FrameworkA.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		810648EE27033570003B1DE2 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		81D7CD932705C630006C645F /* website.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = website.jpeg; sourceTree = "<group>"; };
 		"FrameworkA::FrameworkA::Product" /* FrameworkA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FrameworkA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_19 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		OBJ_9 /* FrameworkA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkA.swift; sourceTree = "<group>"; };
@@ -36,13 +38,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				81BF07772704837B00062151 /* FrameworkBWrapper in Frameworks */,
+				81D7CDB02705D42F006C645F /* FrameworkBWrapper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		81D7CD922705C621006C645F /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				81D7CD932705C630006C645F /* website.jpeg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 		OBJ_8 /* FrameworkA */ = {
 			isa = PBXGroup;
 			children = (
+				81D7CD922705C621006C645F /* Resource */,
 				OBJ_9 /* FrameworkA.swift */,
 			);
 			name = FrameworkA;
@@ -96,6 +107,7 @@
 				OBJ_24 /* Sources */,
 				OBJ_26 /* Frameworks */,
 				81555D4726FC46F50071930F /* Embed Frameworks */,
+				81D7CD942705C63A006C645F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -103,7 +115,7 @@
 			);
 			name = FrameworkA;
 			packageProductDependencies = (
-				81BF07762704837B00062151 /* FrameworkBWrapper */,
+				81D7CDAF2705D42F006C645F /* FrameworkBWrapper */,
 			);
 			productName = FrameworkA;
 			productReference = "FrameworkA::FrameworkA::Product" /* FrameworkA.framework */;
@@ -127,7 +139,7 @@
 			);
 			mainGroup = OBJ_5;
 			packageReferences = (
-				81BF07752704837B00062151 /* XCRemoteSwiftPackageReference "FrameworkBWrapper" */,
+				81D7CDAE2705D42F006C645F /* XCRemoteSwiftPackageReference "FrameworkBWrapper" */,
 			);
 			productRefGroup = OBJ_16 /* Products */;
 			projectDirPath = "";
@@ -137,6 +149,17 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81D7CD942705C63A006C645F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D7CD952705C63F006C645F /* website.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		OBJ_24 /* Sources */ = {
@@ -298,7 +321,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		81BF07752704837B00062151 /* XCRemoteSwiftPackageReference "FrameworkBWrapper" */ = {
+		81D7CDAE2705D42F006C645F /* XCRemoteSwiftPackageReference "FrameworkBWrapper" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:abid-opn/FrameworkBWrapper.git";
 			requirement = {
@@ -309,9 +332,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		81BF07762704837B00062151 /* FrameworkBWrapper */ = {
+		81D7CDAF2705D42F006C645F /* FrameworkBWrapper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 81BF07752704837B00062151 /* XCRemoteSwiftPackageReference "FrameworkBWrapper" */;
+			package = 81D7CDAE2705D42F006C645F /* XCRemoteSwiftPackageReference "FrameworkBWrapper" */;
 			productName = FrameworkBWrapper;
 		};
 /* End XCSwiftPackageProductDependency section */

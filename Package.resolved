@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FrameworkBWrapper",
+        "repositoryURL": "git@github.com:abid-opn/FrameworkBWrapper.git",
+        "state": {
+          "branch": null,
+          "revision": "95fc82a7771daba804bb62db1c3efbacabce3ed5",
+          "version": "0.10.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
